@@ -47,3 +47,9 @@ Thumbs.db
 # We push results/all_results.json and bbh_dashboard/public/data.json
 # but ignore raw checkpoints to keep repo clean
 experiments/checkpoints/
+
+# Old v1 files ignored from repo tracking
+rag/
+data/old_v1/
+SolveBench_Report.md
+SolveBench_Revised.md
