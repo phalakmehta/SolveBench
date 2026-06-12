@@ -1,0 +1,302 @@
+[
+  {
+    "id": "E001",
+    "difficulty": "easy",
+    "domain": "sustainability",
+    "problem": "How would you reduce plastic use in a college canteen?",
+    "reference_answer": "A high-quality solution should identify the main sources of plastic waste in a canteen (single-use cutlery, straws, packaging, carry bags), propose concrete replacements (bamboo cutlery, steel tiffin incentive programs, bulk dispensers, biodegradable packaging), address student behaviour change through nudges and signage, estimate cost-impact on the canteen operator, and propose a phased rollout timeline. It should also mention measurable targets (e.g., 70% reduction in single-use plastic within 6 months).",
+    "rubric": {
+      "feasibility": "Solution uses locally available materials and is affordable for a college canteen budget. No need for large capital expenditure.",
+      "completeness": "Covers at least 3 sources of plastic (cutlery, bags, packaging), addresses both supply-side and demand-side interventions.",
+      "creativity": "Goes beyond obvious 'ban plastics' to suggest nudge systems, gamification, or peer-ambassador programs.",
+      "reasoning_depth": "Explains WHY each intervention works, not just WHAT to do. Cites behaviour change or economic rationale."
+    },
+    "keywords": ["single-use plastic", "canteen", "sustainable", "behaviour change", "incentive"],
+    "expected_score_range": { "feasibility": [3, 5], "completeness": [3, 5], "creativity": [2, 4], "reasoning_depth": [2, 4] }
+  },
+  {
+    "id": "E002",
+    "difficulty": "easy",
+    "domain": "education",
+    "problem": "How would you improve attendance in a government school in a rural village?",
+    "reference_answer": "Effective solutions address root causes of absenteeism: economic (children working), cultural (low perceived value of education), and logistical (distance, poor facilities). Strong answers propose conditional incentive programs (meals, uniforms, scholarships), community engagement (parent meetings, village council involvement), mobile learning for absent students, and tracking mechanisms. Should mention monitoring methods and feedback loops.",
+    "rubric": {
+      "feasibility": "Interventions must work within government school constraints (limited budget, rural infrastructure).",
+      "completeness": "Addresses multiple root causes, not just one. Includes monitoring plan.",
+      "creativity": "Proposes peer-buddy systems, gamified attendance boards, or community storytelling approaches.",
+      "reasoning_depth": "Links each intervention to a specific cause of absenteeism with logical reasoning."
+    },
+    "keywords": ["attendance", "rural school", "government", "incentive", "community"],
+    "expected_score_range": { "feasibility": [3, 5], "completeness": [3, 5], "creativity": [2, 4], "reasoning_depth": [3, 5] }
+  },
+  {
+    "id": "E003",
+    "difficulty": "easy",
+    "domain": "health",
+    "problem": "Design a simple awareness campaign to reduce smoking among college students.",
+    "reference_answer": "An effective campaign combines visual storytelling (real stories from affected people), peer-ambassador programs (students trust peers more than authority), social media challenges, access to cessation resources (counseling hotlines, nicotine patches), and strategic placement in high-smoking zones. Should address social peer pressure as the primary driver in college settings and propose measurable outcomes (e.g., 20% reduction in self-reported smoking in 3 months).",
+    "rubric": {
+      "feasibility": "Campaign can run with minimal budget using student volunteers and social media.",
+      "completeness": "Addresses awareness, cessation support, and prevention for new smokers.",
+      "creativity": "Uses storytelling, challenge formats, or unexpected campus touchpoints.",
+      "reasoning_depth": "Explains the psychology of peer influence and why each channel was chosen."
+    },
+    "keywords": ["smoking", "college", "awareness", "campaign", "peer pressure"],
+    "expected_score_range": { "feasibility": [4, 5], "completeness": [3, 4], "creativity": [2, 4], "reasoning_depth": [2, 4] }
+  },
+  {
+    "id": "E004",
+    "difficulty": "easy",
+    "domain": "community",
+    "problem": "How would you organize a community clean-up drive in your neighbourhood that people actually participate in?",
+    "reference_answer": "High-quality answers go beyond 'announce it and hope' to address participation psychology: social proof (show others joining), low friction (make it easy to show up), fun elements (music, food, competition), clear impact visibility (before/after photos), local influencer involvement (RWA leaders, popular teachers), and follow-up commitment mechanisms. Should propose logistics: timing, tools, waste segregation, and disposal tie-up.",
+    "rubric": {
+      "feasibility": "Requires only basic coordination, volunteer effort, and municipal support for waste disposal.",
+      "completeness": "Covers promotion, logistics, participation incentives, waste disposal, and follow-up.",
+      "creativity": "Proposes gamification, neighbourhood competitions, or social media storytelling.",
+      "reasoning_depth": "Explains the behavioural drivers of participation and why the proposed approach will work."
+    },
+    "keywords": ["clean-up", "community", "participation", "neighbourhood", "motivation"],
+    "expected_score_range": { "feasibility": [4, 5], "completeness": [3, 4], "creativity": [2, 4], "reasoning_depth": [2, 4] }
+  },
+  {
+    "id": "E005",
+    "difficulty": "easy",
+    "domain": "technology",
+    "problem": "How would you help elderly people in your family become comfortable with using smartphones?",
+    "reference_answer": "Good solutions acknowledge the real barriers (fear of making mistakes, small text, unfamiliar UI metaphors, cognitive overload) and propose personalised, patient approaches: one-on-one tutoring sessions focused on 2-3 key apps, voice interface use, simplified launcher apps, physical cheat sheets, error forgiveness framing ('you can't break it'), and regular practice through real motivation (video calls with grandchildren). Should suggest a progression plan.",
+    "rubric": {
+      "feasibility": "Approach works within a family setting without special tools or costs.",
+      "completeness": "Addresses the fear/confidence barrier, the UX barrier, and the motivation barrier.",
+      "creativity": "Suggests simplified UI apps, relatable use-cases first, or patience-first pedagogy frameworks.",
+      "reasoning_depth": "Explains why elderly users face specific challenges and why each intervention addresses them."
+    },
+    "keywords": ["elderly", "smartphone", "digital literacy", "family", "UX"],
+    "expected_score_range": { "feasibility": [4, 5], "completeness": [3, 4], "creativity": [2, 3], "reasoning_depth": [2, 4] }
+  },
+  {
+    "id": "E006",
+    "difficulty": "easy",
+    "domain": "food",
+    "problem": "How would you reduce food waste in a college hostel mess?",
+    "reference_answer": "Strong answers identify the three main waste points: over-serving, selective eating, and expiry of stored food. Solutions include real-time feedback systems (satisfaction boards), portion-choice serving (small/large option), waste audit displays, meal pre-booking systems, and surplus food donation tie-ups with NGOs. Should address student culture and propose measurable targets.",
+    "rubric": {
+      "feasibility": "Works within mess budget, does not require expensive tech.",
+      "completeness": "Covers prevention, reduction, and redistribution of waste.",
+      "creativity": "Proposes visual waste dashboards, gamified plate-clean challenges, or donation partnerships.",
+      "reasoning_depth": "Explains root causes of waste and links each solution to a specific cause."
+    },
+    "keywords": ["food waste", "hostel", "mess", "sustainability", "portion control"],
+    "expected_score_range": { "feasibility": [3, 5], "completeness": [3, 4], "creativity": [2, 4], "reasoning_depth": [2, 4] }
+  },
+  {
+    "id": "E007",
+    "difficulty": "easy",
+    "domain": "mental health",
+    "problem": "Design a low-cost mental health support system for college students.",
+    "reference_answer": "Effective systems combine multiple access points: trained peer counselors (lower barrier than formal therapy), anonymous digital channels (chatbot for first contact), regular mental health check-in events (normalized, not stigmatized), faculty training to identify at-risk students, and referral pathways to professional help. Should acknowledge stigma as the primary barrier and design around it. Must not replace but complement professional care.",
+    "rubric": {
+      "feasibility": "Relies on peer volunteers, existing faculty, and free/open-source tools.",
+      "completeness": "Covers prevention, early detection, support, and professional referral.",
+      "creativity": "Uses anonymous channels, peer support circles, or embedded check-ins in existing activities.",
+      "reasoning_depth": "Explains why stigma is the primary design constraint and how each element addresses it."
+    },
+    "keywords": ["mental health", "college", "peer support", "stigma", "low-cost"],
+    "expected_score_range": { "feasibility": [3, 4], "completeness": [3, 5], "creativity": [2, 4], "reasoning_depth": [3, 5] }
+  },
+  {
+    "id": "E008",
+    "difficulty": "easy",
+    "domain": "environment",
+    "problem": "How would you convince your apartment society to start composting kitchen waste?",
+    "reference_answer": "Behaviour change at community level requires: demonstrating visible benefit (reduced garbage bills, free compost for plants), lowering barriers (provide bins, assign a champion family, clear instructions), social proof (show one pilot family succeeding), making it convenient (daily collection system), and celebrating early adopters. Should address common objections (smell, effort, space) and propose a 3-month trial.",
+    "rubric": {
+      "feasibility": "Requires only basic bins and coordination, affordable at apartment society scale.",
+      "completeness": "Addresses adoption barriers, logistics, and sustaining the habit long-term.",
+      "creativity": "Proposes pilot champions, benefit-sharing (compost giveaways), or dashboard displays.",
+      "reasoning_depth": "Explains the psychology of collective action and addresses specific objections."
+    },
+    "keywords": ["composting", "apartment", "community", "behaviour change", "kitchen waste"],
+    "expected_score_range": { "feasibility": [4, 5], "completeness": [3, 4], "creativity": [2, 3], "reasoning_depth": [2, 4] }
+  },
+  {
+    "id": "E009",
+    "difficulty": "easy",
+    "domain": "civic",
+    "problem": "How would you improve the reading culture among children in a small town?",
+    "reference_answer": "Strong solutions address access (mobile libraries, book exchange corners), motivation (storytelling events, reading challenges with prizes), environment (reading corners in schools, parks), and parental involvement (family reading nights). Should differentiate between age groups (early readers vs. preteens) and acknowledge local language as a key factor for rural/small-town children.",
+    "rubric": {
+      "feasibility": "Works with NGO partnerships, local volunteers, and minimal budget.",
+      "completeness": "Covers access, motivation, environment, and sustainability of the habit.",
+      "creativity": "Suggests street libraries, WhatsApp story clubs, or comic book integration.",
+      "reasoning_depth": "Explains the research-backed link between early reading habit formation and specific interventions."
+    },
+    "keywords": ["reading culture", "children", "small town", "library", "habit formation"],
+    "expected_score_range": { "feasibility": [3, 5], "completeness": [3, 4], "creativity": [2, 4], "reasoning_depth": [2, 4] }
+  },
+  {
+    "id": "E010",
+    "difficulty": "easy",
+    "domain": "workplace",
+    "problem": "How would you improve teamwork in a student project group where members don't communicate well?",
+    "reference_answer": "Root causes of poor communication: unclear roles, lack of psychological safety, asynchronous schedules, and personality conflicts. Solutions include RACI role assignment, regular short standups (10 min), anonymous feedback mechanisms, structured conflict resolution, and celebrating small wins. Should not just say 'communicate more' but prescribe specific mechanisms and a facilitated process.",
+    "rubric": {
+      "feasibility": "Works within student group context with no tools beyond free messaging apps.",
+      "completeness": "Addresses role clarity, communication structure, and conflict resolution.",
+      "creativity": "Proposes retrospectives, role rotation, or creative team contracts.",
+      "reasoning_depth": "Explains WHY communication breaks down and targets root causes, not symptoms."
+    },
+    "keywords": ["teamwork", "student project", "communication", "conflict", "roles"],
+    "expected_score_range": { "feasibility": [4, 5], "completeness": [3, 4], "creativity": [2, 3], "reasoning_depth": [3, 4] }
+  },
+  {
+    "id": "E011",
+    "difficulty": "easy",
+    "domain": "transportation",
+    "problem": "How would you encourage more students in your college to cycle instead of using bikes or autos?",
+    "reference_answer": "Barriers to cycling: safety concerns, sweating in heat, no secure parking, social status perceptions, and distance. Solutions address each: safe cycling lanes within campus, shower/freshening facilities, secure cycle stands, subsidised cycle rental, peer cycling groups (social safety in numbers), and cycling challenges/events. Should propose a phased approach and estimate uptake.",
+    "rubric": {
+      "feasibility": "Works within college campus infrastructure budget.",
+      "completeness": "Addresses safety, convenience, social, and distance barriers.",
+      "creativity": "Suggests cycle-sharing pools, leaderboard challenges, or partnership with local NGOs.",
+      "reasoning_depth": "Explains which barrier is most critical and why it must be solved first."
+    },
+    "keywords": ["cycling", "college", "sustainable transport", "behaviour change", "infrastructure"],
+    "expected_score_range": { "feasibility": [3, 4], "completeness": [3, 5], "creativity": [2, 4], "reasoning_depth": [2, 4] }
+  },
+  {
+    "id": "E012",
+    "difficulty": "easy",
+    "domain": "digital",
+    "problem": "How would you help a local kirana store owner adopt digital payments without overwhelming them?",
+    "reference_answer": "Key barriers: fear of fraud, tech unfamiliarity, distrust, and perceived complexity. Solutions: UPI QR code as the entry point (zero learning curve), in-person demo by a trusted community figure, 7-day trial with hand-holding, highlighting direct benefits (no change-coin problem, automatic records), and WhatsApp-based help group. Should be incremental and not push multiple apps at once.",
+    "rubric": {
+      "feasibility": "UPI-based approach requires only a smartphone and works on any network.",
+      "completeness": "Addresses fear, onboarding, continued use, and trust-building.",
+      "creativity": "Uses community trust figures, visual tutorial cards, or demo videos in local language.",
+      "reasoning_depth": "Explains the cognitive and social barriers of tech adoption for this specific demographic."
+    },
+    "keywords": ["kirana store", "digital payments", "UPI", "adoption", "small business"],
+    "expected_score_range": { "feasibility": [4, 5], "completeness": [3, 4], "creativity": [2, 3], "reasoning_depth": [3, 4] }
+  },
+  {
+    "id": "E013",
+    "difficulty": "easy",
+    "domain": "health",
+    "problem": "Design a simple system to remind elderly people living alone to take their daily medications.",
+    "reference_answer": "Effective systems are fault-tolerant and human-centred: physical pillboxes with day labels, WhatsApp reminder from family, basic alarm phone, medication schedule card on the fridge, and a daily check-in call from a family member or neighbour. High-quality answers layer multiple reminders (redundancy), involve social accountability (neighbour/family check), and consider edge cases (what if they forget they took it — double dosing risk).",
+    "rubric": {
+      "feasibility": "Works without expensive tech, uses existing family and community connections.",
+      "completeness": "Covers reminder, confirmation, and failure-recovery (missed dose protocol).",
+      "creativity": "Suggests linked family apps, smart pillboxes, or community health volunteer networks.",
+      "reasoning_depth": "Explains memory and routine challenges of elderly users and why layered reminders are safer."
+    },
+    "keywords": ["elderly", "medication", "reminder", "alone", "health management"],
+    "expected_score_range": { "feasibility": [4, 5], "completeness": [3, 4], "creativity": [2, 3], "reasoning_depth": [2, 4] }
+  },
+  {
+    "id": "E014",
+    "difficulty": "easy",
+    "domain": "safety",
+    "problem": "How would you make a college campus safer for female students during late hours?",
+    "reference_answer": "Multi-layered safety requires: infrastructure (well-lit paths, CCTV, emergency buttons), policy (buddy system, late-pass system, security patrol routes), technology (safety app with one-tap alert), cultural (bystander training, anti-harassment workshops), and institutional accountability (clear reporting mechanism, fast response SLA). Should not just list tech but also address underlying culture and reporting barriers.",
+    "rubric": {
+      "feasibility": "Combines free/low-cost measures with existing security staff.",
+      "completeness": "Covers infrastructure, policy, technology, culture, and reporting.",
+      "creativity": "Proposes bystander training, peer escort networks, or anonymous incident reporting.",
+      "reasoning_depth": "Addresses WHY existing safety measures fail and what root causes each solution targets."
+    },
+    "keywords": ["campus safety", "female students", "safety", "infrastructure", "culture"],
+    "expected_score_range": { "feasibility": [3, 4], "completeness": [4, 5], "creativity": [2, 4], "reasoning_depth": [3, 5] }
+  },
+  {
+    "id": "E015",
+    "difficulty": "easy",
+    "domain": "productivity",
+    "problem": "How would you design a study schedule for a college student who is struggling with time management?",
+    "reference_answer": "Effective schedules account for chronotype (peak productivity hours), task categorisation (deep work vs. shallow), Pomodoro-style time blocks, buffer time for unexpected tasks, weekly review sessions, and digital detox windows. Should be personalised (not one-size-fits-all), address procrastination triggers, and include an accountability mechanism (study partner, tracker app). Also should not overload the schedule.",
+    "rubric": {
+      "feasibility": "Works within a student's existing course load and lifestyle.",
+      "completeness": "Covers time blocking, task prioritisation, rest, review, and accountability.",
+      "creativity": "Proposes energy-based scheduling, distraction audit, or gamified habit trackers.",
+      "reasoning_depth": "Explains the cognitive science behind time management failures and the rationale for each element."
+    },
+    "keywords": ["study schedule", "time management", "student", "productivity", "habit"],
+    "expected_score_range": { "feasibility": [4, 5], "completeness": [3, 5], "creativity": [2, 3], "reasoning_depth": [2, 4] }
+  },
+  {
+    "id": "E016",
+    "difficulty": "easy",
+    "domain": "social",
+    "problem": "How would you design an event to break the ice between new college freshers in the first week?",
+    "reference_answer": "Great fresher events lower social anxiety through structured interaction (not free-for-all), shared tasks (escape rooms, team quizzes), diverse mixing (not same school/state clusters), and vulnerability-normalising activities (everyone shares one embarrassing fact). Should account for introverts, cultural diversity, and language barriers. Low-cost, high-participation design is essential.",
+    "rubric": {
+      "feasibility": "Runs on college orientation budget with student volunteers.",
+      "completeness": "Covers activity design, inclusivity for introverts, logistics, and follow-up connections.",
+      "creativity": "Proposes creative formats like structured random pairing, shared mission games, or storytelling circles.",
+      "reasoning_depth": "Applies social psychology principles (vulnerability loops, shared goals) to justify the design."
+    },
+    "keywords": ["freshers", "icebreaker", "orientation", "social", "college event"],
+    "expected_score_range": { "feasibility": [4, 5], "completeness": [3, 4], "creativity": [3, 5], "reasoning_depth": [2, 4] }
+  },
+  {
+    "id": "E017",
+    "difficulty": "easy",
+    "domain": "environment",
+    "problem": "How would you reduce water wastage in a college campus?",
+    "reference_answer": "A complete solution maps the biggest wastage points (leaking taps, unmanaged irrigation, overflow tanks, long showers), then proposes targeted fixes: sensor-based taps, timer-controlled irrigation, overhead tank float valves, student awareness campaigns with consumption data displays, and a monthly water audit. Should estimate potential savings and propose who is accountable for each measure.",
+    "rubric": {
+      "feasibility": "Mix of low-cost fixes (float valves, tap repair) and one-time investments (sensors).",
+      "completeness": "Covers detection, prevention, behavioural change, and monitoring.",
+      "creativity": "Proposes greywater reuse, rainwater harvesting, or gamified water-saving dorm competitions.",
+      "reasoning_depth": "Estimates volume of savings and explains the ROI of each intervention."
+    },
+    "keywords": ["water conservation", "campus", "wastage", "sustainability", "audit"],
+    "expected_score_range": { "feasibility": [3, 5], "completeness": [3, 4], "creativity": [2, 4], "reasoning_depth": [2, 4] }
+  },
+  {
+    "id": "E018",
+    "difficulty": "easy",
+    "domain": "entrepreneurship",
+    "problem": "How would you help a college friend turn their hobby (baking) into a small side business?",
+    "reference_answer": "Steps include: validating demand (free samples to friends, collect feedback), defining the niche (custom cakes vs. daily snacks), pricing strategy (cost-plus or value-based), building a small audience (Instagram + WhatsApp groups), legal basics (food hygiene, home kitchen regulations), and managing orders (simple order form, payment via UPI). Should address the hobby-to-business mindset shift and time management.",
+    "rubric": {
+      "feasibility": "Starts small with existing tools (phone, WhatsApp, home kitchen) and scales up.",
+      "completeness": "Covers validation, pricing, marketing, operations, and legal basics.",
+      "creativity": "Proposes subscription boxes, college event catering, or collab with campus cafes.",
+      "reasoning_depth": "Explains the lean startup approach and why validation before investment matters."
+    },
+    "keywords": ["baking", "side business", "entrepreneurship", "college", "hobby monetisation"],
+    "expected_score_range": { "feasibility": [4, 5], "completeness": [3, 5], "creativity": [2, 4], "reasoning_depth": [3, 4] }
+  },
+  {
+    "id": "E019",
+    "difficulty": "easy",
+    "domain": "civic",
+    "problem": "How would you design a system to ensure pothole reporting and repair in your local area actually works?",
+    "reference_answer": "Current failures: reports disappear into a black hole, no accountability, no tracking. Fix: a simple WhatsApp-based reporting bot (geotagged photo), public dashboard showing reported/fixed status, RWA or ward councillor as accountable owner, escalation path (District Collector portal), and media/social media pressure as the enforcement mechanism. Should address the incentive problem for officials.",
+    "rubric": {
+      "feasibility": "Uses existing tools (WhatsApp, Google Sheets, social media) with minimal cost.",
+      "completeness": "Covers reporting, tracking, accountability, escalation, and public pressure.",
+      "creativity": "Proposes citizen journalist model, social media shaming of unfixed potholes, or gamified reporting.",
+      "reasoning_depth": "Explains why current systems fail (accountability gap) and why the proposed fix addresses that root cause."
+    },
+    "keywords": ["pothole", "civic reporting", "accountability", "local government", "citizen"],
+    "expected_score_range": { "feasibility": [3, 4], "completeness": [3, 5], "creativity": [2, 4], "reasoning_depth": [3, 5] }
+  },
+  {
+    "id": "E020",
+    "difficulty": "easy",
+    "domain": "education",
+    "problem": "How would you make mathematics more enjoyable for school students who are afraid of the subject?",
+    "reference_answer": "Math anxiety is largely fear of failure, not lack of ability. Effective interventions: growth mindset framing (mistakes are learning), real-world applications (personal finance, sports statistics), gamification (math puzzles, competitions), visual and manipulative tools (Lego blocks, abacus), storytelling about real mathematicians, and ungraded exploratory sessions. Should address the teacher's role and assessment reform.",
+    "rubric": {
+      "feasibility": "Works in a regular school classroom with minimal additional resources.",
+      "completeness": "Addresses fear/anxiety, pedagogy, teacher behaviour, and assessment.",
+      "creativity": "Proposes math escape rooms, career connections, or peer tutoring circles.",
+      "reasoning_depth": "Links specific interventions to the psychology of math anxiety and growth mindset research."
+    },
+    "keywords": ["mathematics", "anxiety", "school", "pedagogy", "gamification"],
+    "expected_score_range": { "feasibility": [3, 5], "completeness": [3, 5], "creativity": [3, 5], "reasoning_depth": [3, 5] }
+  }
+]

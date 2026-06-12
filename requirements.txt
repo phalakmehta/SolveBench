@@ -1,0 +1,24 @@
+# SolveBench v2 — Dependencies
+# ─────────────────────────────
+
+# Agent orchestration
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-google-genai>=2.0.0
+
+# Dataset
+datasets>=2.14.0
+
+# Embeddings & NLI
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+
+# Experiment tracking
+mlflow>=2.10.0
+
+# Statistics
+scipy>=1.11.0
+numpy>=1.24.0
+
+# Utilities
+tqdm>=4.65.0

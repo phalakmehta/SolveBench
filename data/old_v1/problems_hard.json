@@ -1,0 +1,302 @@
+[
+  {
+    "id": "H001",
+    "difficulty": "hard",
+    "domain": "public healthcare",
+    "problem": "How would you redesign India's public healthcare system to achieve Universal Health Coverage given severe fiscal constraints and a doctor-to-patient ratio of 1:1000 in rural areas?",
+    "reference_answer": "A strong solution acknowledges that UHC in India's context requires a paradigm shift: from hospital-centric to community-centric, from curative to preventive, and from specialist-dependent to task-shifted care. Key pillars: (1) Strengthen the HWC (Health & Wellness Centre) network as the primary care backbone — 1.5 lakh HWCs staffed by CHOs using a standard protocol for 12 health conditions. (2) Task-shift — NPs, CHOs, and pharmacists prescribe for defined conditions, freeing doctors for complex cases. (3) PM-JAY expansion for secondary/tertiary care with DRG-based provider payment to control costs. (4) Digitise patient records (ABHA ID) for continuity of care. (5) Tobacco/sugar tax to generate dedicated NCD health funding. Critically, acknowledge that India cannot hire its way out of the doctor shortage — task-shifting and technology are the only scalable options within fiscal constraints. Should also address the brain drain of MBBS doctors to private sector.",
+    "rubric": {
+      "feasibility": "Solutions must work within India's public health budget (~1.5% of GDP). Avoids recommending sudden massive infrastructure investments. Uses task-shifting and technology as scalability levers.",
+      "completeness": "Covers primary, secondary, and tertiary care. Addresses human resource shortage, financing, and digital infrastructure. Considers rural-urban divide.",
+      "creativity": "Goes beyond 'hire more doctors' — proposes task-shifting, AI-assisted diagnosis, or community health insurance models.",
+      "reasoning_depth": "Cites India-specific data (doctor ratio, NHM coverage, PM-JAY limitations), explains systemic bottlenecks, and distinguishes between what works in a high-income vs resource-constrained setting."
+    },
+    "keywords": ["UHC", "HWC", "task shifting", "PM-JAY", "ABHA", "NHM", "brain drain", "primary care"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [3, 5], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H002",
+    "difficulty": "hard",
+    "domain": "climate & urban planning",
+    "problem": "Design a carbon-neutral city for 2 million people in India by 2040, built on a greenfield site.",
+    "reference_answer": "A carbon-neutral city at this scale requires integrated planning across energy, transport, buildings, land use, and waste. Key design decisions: (1) 100% renewable energy mix (solar + wind + green hydrogen for peak load balancing) with smart grid and storage. (2) Transit-oriented development (TOD) — density nodes around metro/BRT corridors to minimise vehicle use. (3) All buildings to GRIHA 5-star standard with passive cooling (orientation, shading, green roofs) to minimise AC load. (4) Zero-waste circular economy — industrial symbiosis where one industry's waste is another's input. (5) Urban forest cover at 33% of land area for carbon sequestration and heat island mitigation. (6) Blue-green infrastructure (stormwater management + urban cooling). Should address the hardest challenge: how do you make this affordable for a mixed-income Indian city? Cross-subsidy from commercial to residential, value capture from land appreciation, and phased rollout starting with core business district.",
+    "rubric": {
+      "feasibility": "Greenfield context removes retrofit constraints. Solution must still be financially viable — not just technologically possible. Cross-subsidy and value capture are key.",
+      "completeness": "Covers energy, transport, buildings, land use, waste, and financing. Addresses the mixed-income affordability challenge.",
+      "creativity": "Proposes industrial symbiosis, value capture financing, passive cooling design, or 15-minute city principles.",
+      "reasoning_depth": "Quantifies the carbon budget, explains the toughest trade-offs (density vs green space, renewable intermittency), and applies urban planning theory."
+    },
+    "keywords": ["carbon neutral", "smart city", "TOD", "renewable energy", "GRIHA", "green hydrogen", "urban forest"],
+    "expected_score_range": { "feasibility": [1, 4], "completeness": [3, 5], "creativity": [3, 5], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H003",
+    "difficulty": "hard",
+    "domain": "education policy",
+    "problem": "How would you restructure India's higher education system to make graduates significantly more employable, without compromising on academic freedom or equity of access?",
+    "reference_answer": "India's employability problem stems from: outdated curricula (approved once, never updated), supply-side focus (seats, not quality), rote-based assessment that doesn't measure skills, geographic mismatch (colleges in wrong places), and regulatory rigidity (UGC micromanagement). Strong solutions: (1) Dual degree pathways — academic + vocational tracks with mutual credit transfer. (2) Outcome-based accreditation — colleges rated on employment outcomes, not input metrics (library books, lab area). (3) Curriculum agility — industry advisory boards with real authority to update syllabi annually. (4) Employer-integrated learning — mandatory industry internships, project-based final semesters. (5) Differential regulation — top-performing colleges get regulatory autonomy (like IIM/IIT model), weaker ones get more oversight. On equity: targeted scholarships, community college model for geographic access, and online degree recognition. Must address: how do you reform while protecting the 1,000+ colleges that employ lakhs of poorly-paid contract faculty?",
+    "rubric": {
+      "feasibility": "Solutions work within the existing NEP 2020 framework and UGC/AICTE regulatory structure. Avoids recommending complete system demolition.",
+      "completeness": "Covers curriculum reform, assessment, accreditation, employer linkage, equity, and the faculty livelihood question.",
+      "creativity": "Proposes outcome-based accreditation, regulatory autonomy for high performers, or dual-degree pathways.",
+      "reasoning_depth": "Identifies the root causes of the employability gap (regulatory rigidity, rote assessment), not just the symptoms. Engages with the equity-quality trade-off honestly."
+    },
+    "keywords": ["higher education", "employability", "NEP 2020", "UGC", "accreditation", "curriculum reform", "equity"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [3, 5], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H004",
+    "difficulty": "hard",
+    "domain": "agriculture & rural economy",
+    "problem": "Design a comprehensive and sustainable solution to India's farmer distress problem, including chronic debt, volatile incomes, and climate vulnerability.",
+    "reference_answer": "Farmer distress is a multi-cause crisis: yield risk (weather/pest), price risk (commodity market volatility), input cost inflation, credit access (moneylender dependency), and land fragmentation. No single intervention works. A systemic solution requires: (1) Price stability — PM-AASHA + reformed MSP with legal backing for key staples, future trading regulation. (2) Credit: KCC expansion + crop insurance de-bundling (PMFBY should be voluntary and cheaper). (3) Input cost reduction: micro-irrigation subsidy shift from flood to drip, subsidised soil health cards-based fertiliser use. (4) Income diversification: FPO formation for collective bargaining + non-farm income sources (MGNREGA expansion, agri-processing units at block level). (5) Climate resilience: Variety testing and promotion of drought/heat-tolerant cultivars, village-level watershed programs. Must engage with the political economy — input subsidies are politically addictive and hard to reform. Also acknowledge the 60% of farmer income that comes from off-farm sources already.",
+    "rubric": {
+      "feasibility": "Solutions must work within India's agricultural budget and not require completely dismantling existing subsidy structures overnight.",
+      "completeness": "Addresses price risk, yield risk, credit risk, input costs, and income diversification. Engages with climate vulnerability.",
+      "creativity": "Proposes insurance reform, FPO-based collective bargaining, or agri-processing at block level.",
+      "reasoning_depth": "Distinguishes different types of farmer distress (landless labourers vs marginal vs medium farmers), explains why individual interventions fail in isolation, addresses political economy constraints."
+    },
+    "keywords": ["farmer distress", "MSP", "PMFBY", "KCC", "FPO", "climate resilience", "income diversification"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [2, 4], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H005",
+    "difficulty": "hard",
+    "domain": "technology policy",
+    "problem": "Design India's national AI strategy to make it a global AI superpower by 2035 while addressing data sovereignty, talent retention, and equitable access.",
+    "reference_answer": "India's AI strategy must resolve inherent tensions: open data vs. data sovereignty, global talent vs. brain drain, and innovation speed vs. safety. Strong pillars: (1) Data infrastructure — IndiaAI compute mission (GPU clusters for domestic startups/researchers), DPDP Act-compliant data ecosystems, Federated learning frameworks for privacy-preserving AI. (2) Talent: IIT/IISc AI research centres with retention fellowships, NRI reverse incentives (like VAJRA scheme), industry-academia collaboration mandates. (3) Startups: Rs 10,000 Cr AI fund through SIDBI/NASSCOM, Regulatory sandbox for high-risk AI applications. (4) Governance: Risk-tiered AI regulation (high-risk: healthcare/judiciary get mandatory audits; low-risk: market-driven). (5) Equity: BharatGPT or indic-language foundation models to make AI accessible in 22 scheduled languages. (6) Use IndiaStack (UPI, ONDC, ABDM) as AI platforms for global export. Should acknowledge the China-US AI arms race and India's strategic position (neutral but aligned).",
+    "rubric": {
+      "feasibility": "Grounded in India's current AI capabilities, budget realities, and existing digital infrastructure (IndiaStack).",
+      "completeness": "Covers compute, data, talent, startups, governance, and equity. Addresses global positioning.",
+      "creativity": "Proposes IndiaStack as AI platform export, federated learning for privacy, or Indic language foundation models.",
+      "reasoning_depth": "Identifies India's unique competitive advantages (data scale, digital public infrastructure) and specific barriers (compute deficit, brain drain). Engages with geopolitical dimensions."
+    },
+    "keywords": ["AI strategy", "IndiaStack", "DPDP", "compute", "BharatGPT", "brain drain", "AI governance"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [3, 5], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H006",
+    "difficulty": "hard",
+    "domain": "justice & governance",
+    "problem": "How would you reform India's judicial system to clear the 45 million pending case backlog without sacrificing quality of justice?",
+    "reference_answer": "The case backlog has three causes: insufficient judges (India has 21 judges per million vs recommended 50), procedural inefficiency (adjournments, paper-based processes), and demand explosion (more litigation, poor ADR adoption). Solutions: (1) Judiciaire expansion — fill all 25% vacant posts at district courts immediately, create fast-track courts for specific crime types (POCSO, property, motor accident). (2) Process reform — National Case Management System (NCMS) for paperless courts, mandatory mediation for civil disputes before litigation, e-Lok Adalat expansion. (3) Demand reduction — pre-litigation mediation mandate, simplify contract law to reduce business disputes, criminal law reform (decriminalise minor offences). (4) ADR infrastructure — Court-annexed mediation centres in all district courts, trained mediators. (5) Legal aid expansion so lower-income groups can participate in ADR. Should acknowledge the separation of powers challenge — judiciary controls its own reforms, requiring consensual rather than executive-imposed change.",
+    "rubric": {
+      "feasibility": "Works within constitutional constraints (separation of powers). Proposes judicial-executive-legislative coordination mechanisms.",
+      "completeness": "Addresses judge shortage, process inefficiency, ADR, demand reduction, and access to justice.",
+      "creativity": "Proposes fast-track court specialisation, mandatory pre-litigation mediation, or AI-assisted case scheduling.",
+      "reasoning_depth": "Engages with the separation of powers constraint, explains why past attempts at judicial reform have failed, and distinguishes between supply-side and demand-side solutions."
+    },
+    "keywords": ["judicial reform", "case backlog", "ADR", "mediation", "e-courts", "fast-track", "NCMS"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [2, 4], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H007",
+    "difficulty": "hard",
+    "domain": "environment & climate",
+    "problem": "Design India's climate adaptation strategy for its 7,500 km coastline facing sea-level rise, cyclone intensification, and saltwater intrusion by 2050.",
+    "reference_answer": "India's coastal climate vulnerability is not uniform: delta coasts (Sundarbans, Mahanadi, Cauvery), rocky coasts, and sandy coasts require different interventions. A strong strategy: (1) Retreat and protect — risk-zoned coastal management plan (CZM) that relocates settlements below 1-metre elevation in high-risk delta zones (managed retreat), with compensation and host-community integration. (2) Green infrastructure — mangrove restoration as first line of defence (proven storm surge reduction of 66%), coral reef protection, seagrass beds. (3) Hard infrastructure where green isn't enough — seawalls and cyclone shelters for high-density urban coasts (Mumbai, Chennai). (4) Livelihoods — fishing community shift to aquaculture, tourism, and kelp farming as salinisation makes agriculture impossible. (5) Early warning integration — coastal community-level cyclone preparedness. Must acknowledge that some areas (Sundarbans) cannot be protected and managed retreat is the only viable long-term option — a politically difficult truth that must be stated.",
+    "rubric": {
+      "feasibility": "Acknowledges that not all coast can be saved. Proposes a triage approach (protect, adapt, retreat). Uses CZM Act framework.",
+      "completeness": "Covers different coast types, hard and green infrastructure, livelihood transition, early warning, and the politically difficult retreat option.",
+      "creativity": "Proposes managed retreat with compensation, mangrove-based nature-based solutions, or kelp farming as livelihood replacement.",
+      "reasoning_depth": "Differentiates between coast types, engages with the managed retreat taboo, quantifies sea level rise projections, and uses IPCC coastal frameworks."
+    },
+    "keywords": ["sea level rise", "coastal adaptation", "mangroves", "CZM", "managed retreat", "cyclone", "Sundarbans"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [3, 5], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H008",
+    "difficulty": "hard",
+    "domain": "electric vehicles",
+    "problem": "Design a national EV adoption policy for India that achieves 30% EV penetration by 2030 across all vehicle segments while ensuring battery supply chain security.",
+    "reference_answer": "India's EV transition faces distinct challenges by segment: 2W/3W (volume leader, price-sensitive, key for adoption), 4W passenger (aspirational but grid-range anxious), and commercial vehicles (fleet operators, total cost of ownership driven). A comprehensive policy: (1) Demand: FAME III extension for 2W/3W/bus with outcome-linked disbursement, GST parity on EVs vs ICE (currently EV 5% vs ICE 28%), state-level road tax waiver. (2) Supply: PLI scheme for cell chemistry (NMC + LFP), battery recycling mandate (EPR for end-of-life batteries), India-Australia lithium supply chain agreement. (3) Infrastructure: Public charging standards mandate (CCS2 + CHAdeMO interoperability), charging-at-apartment-society mandate in building bye-laws, distribution grid upgrade (EV load is front-loaded on LT feeders). (4) Grid: Time-of-use tariff to incentivise night charging, V2G (vehicle-to-grid) sandbox for grid stability. Should address the 'chicken-and-egg' of charging infra vs EV adoption and propose the minimum viable charging network.",
+    "rubric": {
+      "feasibility": "Uses existing FAME, PLI, GST framework. Acknowledges grid and supply chain constraints.",
+      "completeness": "Covers demand stimulation, supply chain, charging infrastructure, grid impact, and battery recycling.",
+      "creativity": "Proposes V2G sandbox, EPR for batteries, or fleet-first adoption strategy to build charging demand.",
+      "reasoning_depth": "Disaggregates by vehicle segment, explains the chicken-and-egg problem, addresses critical mineral supply chain risk, and proposes a sequenced adoption path."
+    },
+    "keywords": ["EV", "FAME", "PLI", "charging infrastructure", "battery", "lithium", "V2G", "supply chain"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [2, 4], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H009",
+    "difficulty": "hard",
+    "domain": "industrial policy",
+    "problem": "How would India build a competitive domestic semiconductor manufacturing ecosystem from near-zero base, given the massive capital requirements and global supply chain dominance of TSMC/Samsung?",
+    "reference_answer": "India cannot replicate TSMC's leading-edge fabs (3nm/5nm) — that ship has sailed. The realistic path is strategic differentiation: (1) Mature node fabs (28nm–180nm) for defence, automotive, IoT, and ATMP (Assembly, Testing, Marking, Packaging) as entry point — lower capex, growing market. (2) Anchor investor strategy — attract one anchor fab (Micron ATMP is already done) to reduce supplier uncertainty for the ecosystem. (3) Chip design strength — India's real advantage is design talent (Qualcomm, Intel, AMD design centres in Bangalore). Build a National Chip Design Mission supporting fabless startups via EDA tool access, shuttle runs, and IP libraries. (4) Talent: 4-year VLSI engineering curriculum in top 20 NITs, industry-funded labs. (5) Supply chain: Chemicals (wet process chemicals are India-makeable), equipment (hard — must partner with Japan/Netherlands for ASML dependency). India's strategic bet: be the world's most cost-competitive location for mature node + ATMP, and the global hub for chip design talent, while the fab ecosystem matures. Should acknowledge the 10-year timeline reality.",
+    "rubric": {
+      "feasibility": "Acknowledges India cannot compete at leading-edge immediately. Focuses on ATMP and mature nodes as realistic entry points.",
+      "completeness": "Covers fabs, design, talent, supply chain, equipment, and a realistic long-term vision.",
+      "creativity": "Proposes fabless startup focus, ATMP as entry point, or geopolitical ally leverage (ASML access via US-India tech deal).",
+      "reasoning_depth": "Explains the semiconductor value chain, India's actual competitive position, the capital-intensity barrier, and proposes a sequenced 10-year strategy with honest trade-offs."
+    },
+    "keywords": ["semiconductor", "TSMC", "ATMP", "fabless", "VLSI", "chip design", "mature node", "PLI"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [3, 5], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H010",
+    "difficulty": "hard",
+    "domain": "primary education",
+    "problem": "How would you reform India's primary education system to dramatically improve foundational literacy and numeracy outcomes, given that 50% of Grade 5 students cannot read a Grade 2 text?",
+    "reference_answer": "The learning crisis has three roots: teacher quality and accountability, curriculum-coverage focus (finish syllabus, not ensure learning), and multi-grade/multi-language classroom challenges. Evidence-based solutions: (1) Teaching at the Right Level (TaRL/Pratham model) — regroup students by learning level, not age grade, for foundational classes. (2) Structured Pedagogy — scripted lesson plans and daily practice routines that require minimal teacher training (proven in Kenya, Punjab). (3) Mother-tongue instruction in Grade 1-2 (bridging from home language to Hindi/English reduces cognitive load). (4) Teacher support systems — instructional coaches (not inspectors) doing fortnightly school visits. (5) Assessment reform — regular, low-stakes formative assessment (not annual high-stakes exams). (6) Community accountability — school management committees with real power (teacher attendance records, learning outcomes transparency). Should engage with NIPUN Bharat as the existing framework and explain what additional implementation support it needs.",
+    "rubric": {
+      "feasibility": "Uses NIPUN Bharat framework, existing DIET/BRC support structure, and proven TaRL methodology.",
+      "completeness": "Covers pedagogy, assessment, teacher support, mother-tongue instruction, and community accountability.",
+      "creativity": "Proposes TaRL regrouping, structured pedagogy scripts, or instructional coach model.",
+      "reasoning_depth": "Engages with the 'learning poverty' evidence base, explains why the curriculum-coverage trap persists, references ASER data, and distinguishes between proven (TaRL, structured pedagogy) and unproven interventions."
+    },
+    "keywords": ["foundational literacy", "TaRL", "NIPUN Bharat", "learning crisis", "ASER", "structured pedagogy", "mother tongue"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [3, 5], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H011",
+    "difficulty": "hard",
+    "domain": "water security",
+    "problem": "Design a national strategy to make India water-secure by 2047 given that 21 major cities are expected to run out of groundwater by 2030 and 40% of rainfall is lost as runoff.",
+    "reference_answer": "India's water crisis is a governance crisis as much as a physical one: groundwater is a free common resource with no incentive for conservation. The strategy requires three shifts: (1) Demand management — agricultural water pricing (currently free), drip/sprinkler irrigation mandate for water-stressed districts, crop diversification away from water-intensive paddy in the Gangetic belt. (2) Supply augmentation — Jal Shakti Mission scale-up: check dams, percolation tanks, atal bhujal yojana for community aquifer management. (3) Urban water systems — 24×7 water supply reform (public utility reform on Dharwad model), greywater recycling mandate for buildings above 2,000 sqm, rainwater harvesting mandate. (4) Governance — aquifer mapping at district level, Groundwater Protection Zones (GPZ) around over-exploited aquifers with extraction quotas. (5) Climate — 33% forest cover target (watershed protection), mangrove restoration for coastal aquifer protection. The hardest part: free groundwater is an agricultural and political sacred cow. Should address how to sequence reforms without triggering farmer revolt.",
+    "rubric": {
+      "feasibility": "Acknowledges the political difficulty of water pricing. Proposes sequenced reform (urban first, then peri-urban, then agricultural).",
+      "completeness": "Covers demand, supply, urban systems, governance, and climate resilience. Addresses the political economy of reform.",
+      "creativity": "Proposes community aquifer management, GPZs, or greywater recycling mandate.",
+      "reasoning_depth": "Uses water balance data, explains the commons problem with groundwater, proposes a politically sequenced reform path, and distinguishes between water-stressed and water-abundant regions."
+    },
+    "keywords": ["water security", "groundwater", "Jal Shakti", "aquifer", "drip irrigation", "urban water", "water pricing"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [2, 4], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H012",
+    "difficulty": "hard",
+    "domain": "digital inclusion",
+    "problem": "How would you close India's urban-rural digital divide at scale, where 65% of rural India still lacks meaningful internet access and digital skills?",
+    "reference_answer": "The digital divide has three layers: access (no connectivity), devices (no smartphone/computer), and skills (digital literacy). Solutions at each layer: (1) Connectivity — BharatNet Phase 3 completion (gram panchayat to household), PM-WANI framework for community wifi hotspots, LEO satellite backhaul for remote areas (TRAI spectrum auction for SpaceX/OneWeb). (2) Devices — shared device model (CSC + PM e-Vidya tablets), device subsidy scheme for BPL households (like PM-WANI + Jan Dhan combo). (3) Skills — Digital Sakhi model (women as community digital navigators), embedded digital literacy in school curriculum, IVR/voice-first interfaces for low-literacy users. (4) Demand — create compelling local language digital services (rural e-commerce, agri-advisory, telemedicine) so connectivity has economic value. The critical insight: connectivity alone doesn't close the divide — you need relevant content and skilled users simultaneously. Should acknowledge that 4G/5G commercial rollout in rural areas is economically unviable without USO subsidy or public infrastructure.",
+    "rubric": {
+      "feasibility": "Uses BharatNet, CSC, USO Fund, and PM-WANI framework. Acknowledges commercial non-viability of pure market approach.",
+      "completeness": "Covers connectivity, devices, skills, and content/demand. Addresses gender digital divide.",
+      "creativity": "Proposes Digital Sakhi model, voice-first interfaces, PM-WANI community wifi, or LEO satellite backhaul.",
+      "reasoning_depth": "Explains why connectivity alone fails (demand side), distinguishes between the layers of the divide, addresses the gender gap within rural digital access."
+    },
+    "keywords": ["digital divide", "BharatNet", "PM-WANI", "CSC", "digital literacy", "rural internet", "Digital Sakhi"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [2, 4], "reasoning_depth": [3, 5] }
+  },
+  {
+    "id": "H013",
+    "difficulty": "hard",
+    "domain": "social welfare",
+    "problem": "Design a fraud-resistant, inclusive, and efficient national social welfare delivery system that unifies India's 400+ central and state welfare schemes.",
+    "reference_answer": "India's welfare system leaks at three points: inclusion error (wrong people get benefits), exclusion error (right people don't), and diversion (money/goods disappear mid-chain). A unified system: (1) Single welfare ID — Jan Samarth portal as the integration layer (already exists, needs scale). Build a household income and asset profile (combining IT returns, land records, and vehicle data) for automatic eligibility calculation. (2) DBT for all cash/food/fertiliser — direct to Jan Dhan/Aadhaar-linked account, eliminating middlemen. (3) Exclusion reduction — proactive outreach through ASHA/MNREGA roster for identifying non-enrolled eligible beneficiaries. (4) Grievance — Centralised grievance dashboard (CPGRAMS integration) with 30-day SLA and automatic escalation. (5) Deduplication — Aadhaar-linked deduplication across all schemes (already partially done, needs completion). The fundamental tension: automatic eligibility based on data misses those not in any database (undocumented migrant workers, recently impoverished). Must address the 'ghost in the machine' problem — people who exist but have no digital trace.",
+    "rubric": {
+      "feasibility": "Builds on existing Jan Samarth, DBT, Aadhaar, CPGRAMS infrastructure. No wholesale system replacement.",
+      "completeness": "Addresses inclusion error, exclusion error, diversion, grievance, and the undocumented population gap.",
+      "creativity": "Proposes proactive eligibility determination, automatic life-event triggered benefit updates, or federated welfare data architecture.",
+      "reasoning_depth": "Distinguishes between the three leakage types, explains why Aadhaar alone doesn't solve exclusion error, addresses the undocumented population gap, and engages with privacy trade-offs."
+    },
+    "keywords": ["welfare delivery", "DBT", "Jan Samarth", "Aadhaar", "inclusion error", "exclusion error", "CPGRAMS"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [2, 4], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H014",
+    "difficulty": "hard",
+    "domain": "climate",
+    "problem": "Design India's strategy to achieve net-zero emissions by 2070 while maintaining a growth rate of 6-8% GDP per year and eliminating energy poverty.",
+    "reference_answer": "India's net-zero challenge is unique: it must develop AND decarbonise simultaneously, unlike the West which developed on fossil fuels first. The strategy must resolve the trilemma: affordability, reliability, and sustainability. Key pillars: (1) Energy: 500GW renewables by 2030 (already committed), green hydrogen for hard-to-abate sectors (steel, fertiliser, cement), phased coal retirement (oldest plants first, with just transition fund for coal belt workers). (2) Industry: Green steel mandate (hydrogen DRI pathway), cement blending standards (fly ash/slag), mandatory EPR and circular economy standards. (3) Transport: EV mandate for new 2W/3W by 2030, modal shift to rail (dedicated freight corridors), sustainable aviation fuel mandate. (4) Buildings: Energy conservation building code mandatory enforcement, passive cooling standards for new construction. (5) Finance: India's sovereign green bond programme, carbon market (CCTS — Carbon Credit Trading Scheme) price signal. (6) Just transition: Rs 2 lakh crore just transition fund for coal communities (retraining + economic diversification). Must acknowledge India's equity argument (per capita emissions are 2.4 tonnes vs US 15 tonnes) and the climate finance gap from developed nations.",
+    "rubric": {
+      "feasibility": "Consistent with India's NDC commitments, Paris Agreement obligations, and fiscal capacity. Doesn't require India to choose between growth and climate.",
+      "completeness": "Covers energy, industry, transport, buildings, finance, and just transition for coal workers.",
+      "creativity": "Proposes green hydrogen for hard-to-abate sectors, just transition fund, or carbon market price signal.",
+      "reasoning_depth": "Quantifies India's emissions trajectory, explains the equity argument, addresses the energy trilemma, and proposes a realistic technology transition pathway by sector."
+    },
+    "keywords": ["net zero", "green hydrogen", "coal transition", "NDC", "just transition", "carbon market", "CCTS"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [3, 5], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H015",
+    "difficulty": "hard",
+    "domain": "child nutrition",
+    "problem": "Design a systematic solution to eliminate child malnutrition (stunting, wasting, anaemia) in India, which has the world's highest absolute number of stunted children.",
+    "reference_answer": "Child malnutrition is caused by food insecurity, inadequate dietary diversity, poor infant and young child feeding practices, recurrent infections (poor WASH), and maternal malnutrition (intergenerational cycle). A systemic solution: (1) First 1000 days focus — Anganwadi-based counselling for IYCF (breastfeeding, complementary feeding from 6 months), iron/folic acid supplementation for pregnant women. (2) Diet quality — egg-per-week in midday meal + ICDS supplementary nutrition (beyond the current calorie focus to micronutrient diversity). (3) WASH integration — 100% functional toilets in ICDS centres + hand-washing behaviour change, ODF Plus for villages. (4) Maternal health — ANC with deworming + micronutrient supplementation to break intergenerational cycle. (5) SAM (severe acute malnutrition) management — NRC (nutrition rehabilitation centre) scale-up + community-based management (CMAM). Should engage with POSHAN 2.0 as the existing framework, identify its gaps (data quality, convergence between departments), and propose how to strengthen it. Must acknowledge that stunting reduction takes 8-10 years of sustained effort to show results.",
+    "rubric": {
+      "feasibility": "Builds on ICDS, Anganwadi, POSHAN 2.0, and NHM infrastructure. Does not require building new delivery systems.",
+      "completeness": "Covers the first 1000 days, dietary diversity, WASH, maternal health, and SAM management. Addresses the intergenerational cycle.",
+      "creativity": "Proposes egg-in-midday-meal, CMAM model, or POSHAN tracker-based real-time convergence dashboard.",
+      "reasoning_depth": "Uses NFHS-5 data, explains the multi-cause model (food + care + health environment), distinguishes stunting from wasting from anaemia, and addresses the 8-10 year timeline expectation."
+    },
+    "keywords": ["malnutrition", "stunting", "ICDS", "POSHAN 2.0", "first 1000 days", "IYCF", "SAM", "CMAM"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [2, 4], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H016",
+    "difficulty": "hard",
+    "domain": "labour & skilling",
+    "problem": "Design a national skilling and employment ecosystem to make 100 million Indians job-ready by 2030, given that existing skill programs have high dropout and low placement rates.",
+    "reference_answer": "Existing skill programs fail because: they are supply-push (train first, find jobs later), short-duration courses with no employer trust, geographic mismatch, no post-placement support, and plagued by fake data (enrolment vs actual trained vs placed). A reformed ecosystem: (1) Demand-led skilling — every district does skill gap mapping with top 10 local employers before launching courses. (2) NSQF-aligned, employer-co-designed short courses (3-6 months) with shared training infrastructure (ITIs as sector skill centres). (3) Apprenticeship push — National Apprenticeship Promotion Scheme with simplified compliance (currently 50+ forms), expand to SMEs with shared apprenticeship agents. (4) Data integrity — third-party placement verification, 6-month and 12-month income tracking of placed candidates. (5) Finance — Income Share Agreements for self-financed learners (pay back after placement), PMKVY funds redirected to high-placement-rate programs only. (6) Recognition of Prior Learning (RPL) for the 400 million informal workers who have real skills but no certificate. Should acknowledge that 'skill' alone doesn't create jobs — demand-side policies (MSMEs, manufacturing PLI) must accompany.",
+    "rubric": {
+      "feasibility": "Uses PMKVY, NAPS, ITI, and sector skill council infrastructure. Doesn't require dismantling existing ecosystem.",
+      "completeness": "Covers demand mapping, course design, delivery, apprenticeship, data integrity, financing, and RPL for informal workers.",
+      "creativity": "Proposes ISA financing, RPL for informal workers, third-party placement verification, or employer-shared training centres.",
+      "reasoning_depth": "Diagnoses the specific failure modes of existing programs (supply-push, fake data, no post-placement), explains why each proposed fix addresses a specific failure, and acknowledges that skill supply alone cannot solve the employment problem."
+    },
+    "keywords": ["skilling", "PMKVY", "apprenticeship", "NAPS", "RPL", "ISA", "placement", "demand-led"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [3, 5], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H017",
+    "difficulty": "hard",
+    "domain": "criminal justice",
+    "problem": "How would you reform India's prison system to reduce recidivism, improve conditions, and address the fact that 76% of prisoners are undertrials?",
+    "reference_answer": "India's prison crisis: (1) 76% are undertrials — meaning they haven't been convicted but are imprisoned (often for lack of bail money). (2) Severe overcrowding (average 118% capacity). (3) No meaningful rehabilitation. (4) Conditions that criminalise rather than rehabilitate. Reform pillars: (1) Undertrial reduction — mandatory bail for non-violent offences under section 436A CrPC expansion, legal aid strengthening (NALSA-funded bail clinics), fast-track courts for cases where undertrial detention exceeds 1/2 the maximum sentence. (2) Prison conditions — minimum standards enforcement (food, medical care, legal access), overcrowding-based early release mechanism. (3) Rehabilitation — skill training programs within prisons (already in some states — expand), cognitive behavioural therapy for violent offenders, family contact preservation (video calls, conjugal visits). (4) Post-release — halfway houses, employment referral programmes, address-based certificate that prevents stigma in job applications. (5) Governance — independent prison inspectorate (currently state governments self-monitor). Must engage with the fundamental tension: prisons are punitive AND rehabilitative — which goal dominates?",
+    "rubric": {
+      "feasibility": "Uses existing CrPC provisions, NALSA, and state correctional service infrastructure. No major new legislation required for most reforms.",
+      "completeness": "Addresses undertrial crisis, conditions, rehabilitation, post-release support, and governance. Engages with the punishment-rehabilitation tension.",
+      "creativity": "Proposes bail clinics, halfway houses, independent prison inspectorate, or cognitive behavioural therapy programs.",
+      "reasoning_depth": "Uses the 76% undertrial statistic as the primary diagnostic, explains the fundamental rights violation this represents, proposes sequenced reforms prioritising the most critical issues first."
+    },
+    "keywords": ["prison reform", "undertrial", "NALSA", "recidivism", "rehabilitation", "bail", "CrPC", "overcrowding"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [2, 4], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H018",
+    "difficulty": "hard",
+    "domain": "renewable energy",
+    "problem": "Design India's strategy to become the world's largest renewable energy exporter by 2040, leveraging its solar and wind resources.",
+    "reference_answer": "India's renewable export potential rests on three commodities: green hydrogen (GH2), green ammonia, and green steel — all made using surplus renewable electricity. The strategy: (1) Domestic RE scale-up — 1000GW by 2035 (vs 500GW 2030 target), driven by renewable purchase obligations, CfD-based long-term contracts for certainty. (2) Green hydrogen — National Green Hydrogen Mission (already launched) — electrolysis using surplus RE, port-side electrolyser clusters (Kandla, Vizag, Tuticorin), pipeline vs ship export decision. (3) Green ammonia — leverage India's existing fertiliser infrastructure, export to EU (which needs 10 million tonnes/year by 2030). (4) Green steel — DRI-electric arc furnace route, target European carbon border adjustment (CBAM) compliant exports. (5) Transmission — interstate green energy corridor to move RE from solar-rich Rajasthan/Gujarat to port cities and industrial clusters. (6) Finance — Green Climate Fund, sovereign green bonds, viability gap funding for early projects. The key tension: export or use domestically? Priority should be domestic decarbonisation first, export surplus.",
+    "rubric": {
+      "feasibility": "Builds on existing NGHM, RE targets, and port infrastructure. Acknowledges transmission bottleneck as the binding constraint.",
+      "completeness": "Covers RE scale-up, green hydrogen, green ammonia, green steel, transmission, and financing.",
+      "creativity": "Proposes port-side electrolyser clusters, CBAM-compliant green steel exports, or CfD-based long-term RE contracts.",
+      "reasoning_depth": "Explains the green hydrogen value chain, identifies the binding constraints (transmission, water for electrolysis, storage), addresses the export-vs-domestic use tension."
+    },
+    "keywords": ["green hydrogen", "renewable export", "NGHM", "green ammonia", "green steel", "CBAM", "electrolyser"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [3, 5], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H019",
+    "difficulty": "hard",
+    "domain": "urban governance",
+    "problem": "How would you fix India's urban local body financing crisis, where most cities cannot fund even basic services and 70% of ULBs have negative net worth?",
+    "reference_answer": "ULB financial crisis has structural causes: property tax under-collection (assessed value = 1970s market value), no own-source revenue growth mandate, state government control over ULB budgets, and no accountability for service delivery. Reform pillars: (1) Property tax reform — GIS-based self-assessment of current market value (Patna model), 5-year revision cycle, automation of demand generation and collection. (2) Own-source revenue — ULB user charges for water, waste, parking (currently subsidised to 10% cost recovery), advertisement tax reform. (3) Land value capture — TDR (Transferable Development Rights) sales, betterment levy for infrastructure beneficiaries, land pooling for urban expansion areas. (4) Borrowing — Municipal bond market revival (SEBI-rated bonds, credit enhancement by HUDCO), only for revenue-generating infrastructure. (5) State transfers — 15th Finance Commission formula implementation, state SMART policies that link grants to performance on own-source revenue. The fundamental problem: city mayors are politically accountable for service failures but financially accountable to state governments. This principal-agent problem must be named explicitly.",
+    "rubric": {
+      "feasibility": "Uses existing property tax systems, SEBI bond framework, and 15th Finance Commission recommendations.",
+      "completeness": "Covers property tax reform, user charges, land value capture, borrowing, and centre-state transfers.",
+      "creativity": "Proposes GIS-based self-assessment, land value capture through TDR, or performance-linked state grants.",
+      "reasoning_depth": "Names the principal-agent problem (political vs fiscal accountability), explains why property tax is so dramatically under-collected, and proposes a sequenced reform (quick wins first: GIS assessment) before harder reforms (user charges)."
+    },
+    "keywords": ["ULB finance", "property tax", "municipal bonds", "land value capture", "TDR", "HUDCO", "15th Finance Commission"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [2, 4], "reasoning_depth": [4, 5] }
+  },
+  {
+    "id": "H020",
+    "difficulty": "hard",
+    "domain": "mental health policy",
+    "problem": "Design a national mental health policy for India that addresses the treatment gap (estimated at 80%), given severe psychiatrist shortage (0.3 per 100,000) and high stigma.",
+    "reference_answer": "India's 80% treatment gap means 4 out of 5 people who need mental health care don't get it. The psychiatrist shortage cannot be solved in <15 years (training pipeline too slow). The only scalable path is task-shifting + system integration. Strategy: (1) Task-shifted care — MHCP (Mental Health Care Person) cadre trained at diploma level for common mental disorders (depression, anxiety, alcohol use disorder), supervised by psychiatrists via tele-supervision. (2) Primary care integration — every PHC doctor trained in mhGAP (WHO's mental health gap action programme) for 5 common conditions, medicine supply (amitriptyline, fluoxetine, haloperidol) at PHC level. (3) Community — ASHA and MNREGA workforce trained in psychological first aid and referral. (4) Stigma — mass media campaign linked to help-seeking (like suicide prevention lines), peer recovery ambassador model (people with lived experience). (5) Institutional care — mental hospital reform (NIMHANS model), rights-based care under Mental Healthcare Act 2017. (6) Finance — PMJAY coverage extension to mental health (currently excluded from most packages). Should engage with the Mental Healthcare Act 2017 (right to treatment, advance directives) and explain why it is underimplemented.",
+    "rubric": {
+      "feasibility": "Builds on existing NMHP, DMHP, mhGAP, and ASHA infrastructure. Uses task-shifting as the primary scalability mechanism.",
+      "completeness": "Covers task-shifted care, primary care integration, community layer, stigma, institutional reform, and financing.",
+      "creativity": "Proposes peer recovery ambassador model, tele-supervision for task-shifted workers, or mhGAP at PHC level.",
+      "reasoning_depth": "Explains why the psychiatrist shortage cannot be solved by training alone, applies the task-shifting evidence base, addresses the Mental Healthcare Act 2017 implementation gap, and distinguishes between common mental disorders and severe mental illness."
+    },
+    "keywords": ["mental health", "treatment gap", "task shifting", "mhGAP", "DMHP", "NMHP", "MHA 2017", "stigma"],
+    "expected_score_range": { "feasibility": [2, 4], "completeness": [3, 5], "creativity": [3, 5], "reasoning_depth": [4, 5] }
+  }
+]

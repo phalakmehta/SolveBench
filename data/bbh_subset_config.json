@@ -1,0 +1,43 @@
+{
+  "subsets": [
+    {
+      "name": "logical_deduction_five_objects",
+      "display_name": "Logical Deduction (5 objects)",
+      "task_type": "Deductive reasoning",
+      "sample_count": 10,
+      "description": "Clear right/wrong answer — architecture differences are measurable"
+    },
+    {
+      "name": "causal_judgement",
+      "display_name": "Causal Judgement",
+      "task_type": "Causal reasoning",
+      "sample_count": 10,
+      "description": "Tests reasoning chains, not recall"
+    },
+    {
+      "name": "web_of_lies",
+      "display_name": "Web of Lies",
+      "task_type": "Multi-step logic",
+      "sample_count": 10,
+      "description": "Requires tracking state across steps — pipeline should help"
+    },
+    {
+      "name": "formal_fallacies",
+      "display_name": "Formal Fallacies",
+      "task_type": "Argument evaluation",
+      "sample_count": 10,
+      "description": "Debate architecture naturally fits"
+    },
+    {
+      "name": "navigate",
+      "display_name": "Navigate",
+      "task_type": "Spatial reasoning",
+      "sample_count": 10,
+      "description": "Tests consistency — good for Reflection architecture"
+    }
+  ],
+  "total_problems": 50,
+  "random_seed": 42,
+  "dataset_source": "lukaemon/bbh",
+  "notes": "Stratified random sample — 10 problems per subset, reproducible via fixed seed"
+}
