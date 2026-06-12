@@ -42,4 +42,3 @@ npm install
 npm run dev
 ```
 
-*Built by Phalak Mehta*
